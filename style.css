@@ -1,36 +1,48 @@
 body{
-  margin: 0;
+  background-color: whitesmoke;
 }
 #mainNav{
-  height: 50px;
-  background: #046645;
-  color: black;
+  background-color: #046645;
+  overflow: hidden;
 }
 
 #mainNav ul{
-  padding: 10px;
+  padding: 0;
   margin: 0;
   list-style: none;
 }
 
 #mainNav li{
-  display: inline;
-  padding: 10px 10px;
+  padding: 0;
+  margin: 0;
 }
 
 #mainNav a{
-  color: black;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px;
   text-decoration: none;
   font-size: 18px;
 }
 
 #mainNav li:hover{
+
+  background-color: #87E9A9;;
+}
+
+#mainNav a:hover{
+  color: black;
   background-color: #87E9A9;
 }
 
 .image-container{
   display: flex;
   justify-content: center;
+}
+.headshot{
+  border-radius: 50%;
+  width: 150px;
 }
 .about{
   text-align: center;
